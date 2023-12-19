@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { useGetAllCommentMutation } from './store/api';
 
 function App() {
+  const [getAllComment, comment] = useGetAllCommentMutation()
+
+  useEffect(() => {
+    getAllComment()
+  }, [])
+
+
+  console.log(comment)
   return (
     <div className="App">
       <header className="App-header">
