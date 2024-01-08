@@ -6,8 +6,9 @@ import {
   fetchBaseQuery,
   createApi
 } from "@reduxjs/toolkit/query/react";
+import type { AmountListProps, GameListProps } from "modules/types";
 
-const baseUrl = "https://jsonplaceholder.typicode.com";
+const baseUrl = "https://stage.whgstage.com/";
 
 const baseQuery = fetchBaseQuery({
   baseUrl: baseUrl,
@@ -44,9 +45,15 @@ export const API = createApi({
   reducerPath: "API",
   baseQuery: fetchBase,
   endpoints: (builder) => ({
-    getAllComment: builder.mutation<string, void>({
+    getAllGames: builder.mutation<GameListProps[], void>({
       query: () => ({
-        url: "/comments",
+        url: "/front-end-test/games.php",
+        method: "GET",
+      }),
+    }),
+    getAllAmount:  builder.mutation<AmountListProps[], void>({
+      query: () => ({
+        url: "/front-end-test/jackpots.php",
         method: "GET",
       }),
     }),
@@ -54,6 +61,6 @@ export const API = createApi({
 });
 
 
-export const { useGetAllCommentMutation } = API
+export const { useGetAllGamesMutation, useGetAllAmountMutation } = API
 
 

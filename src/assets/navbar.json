@@ -2,51 +2,61 @@
     "navigation" : [
         {
             "_id" : "nav001",
-            "title" : "Top Gamse",
+            "title" : "Top Games",
+            "filter": "top",
             "url" : "#"
         },
         {
             "_id" : "nav002",
             "title" : "New Games",
+            "filter": "new",
             "url" : "#"
         },
         {
             "_id" : "nav003",
             "title" : "Slots",
+            "filter": "slots",
             "url" : "#"
         },
         {
             "_id" : "nav004",
+            "filter": "slots",
             "title" : "Jackpots",
             "url" : "#"
         },
         {
             "_id" : "nav005",
             "title" : "Lives",
+            "filter": "slots",
             "url" : "#"
         },
         {
             "_id" : "nav006",
+            "filter": "slots",
             "title" : "Blackjack",
             "url" : "#"
         },
         {
             "_id" : "nav007",
+            "filter": "slots",
             "title" : "Roulette",
             "url" : "#"
         },
         {
             "_id" : "nav008",
+            "filter": "slots",
             "title" : "Table",
             "url" : "#"
         },
         {
             "_id" : "nav009",
             "title" : "Poker",
+            "filter": "poker",
             "url" : "#"
         },
         {
             "_id" : "nav0010",
+            "filter": "slots",
             "title" : "Other",
             "url" : "#"
         }
