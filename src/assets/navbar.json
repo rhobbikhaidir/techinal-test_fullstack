@@ -1,0 +1,55 @@
+{
+    "navigation" : [
+        {
+            "_id" : "nav001",
+            "title" : "Top Gamse",
+            "url" : "#"
+        },
+        {
+            "_id" : "nav002",
+            "title" : "New Games",
+            "url" : "#"
+        },
+        {
+            "_id" : "nav003",
+            "title" : "Slots",
+            "url" : "#"
+        },
+        {
+            "_id" : "nav004",
+            "title" : "Jackpots",
+            "url" : "#"
+        },
+        {
+            "_id" : "nav005",
+            "title" : "Lives",
+            "url" : "#"
+        },
+        {
+            "_id" : "nav006",
+            "title" : "Blackjack",
+            "url" : "#"
+        },
+        {
+            "_id" : "nav007",
+            "title" : "Roulette",
+            "url" : "#"
+        },
+        {
+            "_id" : "nav008",
+            "title" : "Table",
+            "url" : "#"
+        },
+        {
+            "_id" : "nav009",
+            "title" : "Poker",
+            "url" : "#"
+        },
+        {
+            "_id" : "nav0010",
+            "title" : "Other",
+            "url" : "#"
+        }
+    ]
+
+}

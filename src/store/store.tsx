@@ -1,8 +1,8 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-import { API } from "./api";
 import storage from "redux-persist/lib/storage";
 import { FLUSH, PAUSE, PERSIST, PURGE, REGISTER, REHYDRATE, persistReducer } from "redux-persist";
 import { setupListeners } from "@reduxjs/toolkit/query";
+import { API } from "./api";
 
 const presistConfig = {
     key: 'root',
