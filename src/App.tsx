@@ -11,8 +11,6 @@ function App() {
   const [menu, setMenu] = useState<GameListProps[]>((games.data && games.data) || [])
   const [loading, setLoading] = useState<boolean>(false)
   const [activeNavbar, setActiveNavbar] = useState<string>('')
-  console.log(menu, 'menu')
-  console.log(setMenu)
   useEffect(() => {
     const intervalId = setInterval(() => {
       getAllAmount()
